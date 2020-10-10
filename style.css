@@ -1,0 +1,105 @@
+/*General colors and fonts */
+body{
+	background-color: #d6e0f0;
+	color: #393b44;
+	font-family: Courier, monospace;
+	font-size: 16px;
+}
+
+h1{
+	font-family: Helvetica;
+	color: #393b44;
+}
+
+img{
+	border-radius: 6px;
+}
+
+div{
+	border-color: #393b44;
+	border-style: solid;
+	border-radius: 6px;
+}
+
+a{
+	text-decoration: none;
+	color: #8d93ab
+}
+
+a:hover{
+	color: black;
+}
+
+/*Design specific Classes*/
+.container{
+	width: 800px;
+	margin: 30px auto;
+	border: none
+}
+
+.card-white{
+	background-color: #f1f3f8;
+	margin-bottom: 15px;
+	box-shadow: 5px 10px 30px rgba(0,0,0,.4);
+	padding: 30px;
+	text-align: center;
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+.list-inline i {
+	font-size: 60px;
+	color: #8d93ab;
+}
+
+.list-inline i:hover{
+	color: #393b44;
+}
+
+.btn-blue{
+	display: inline-block;
+	background-color: #8d93ab;
+	color: white;
+	font-weight: bolder;
+	padding: 15px 20px;
+	border-radius: 6px;
+	width: 200px
+}
+
+.btn-blue:hover{
+	background-color: #393b44;
+	color: white;
+	box-shadow: 5px 10px 30px rgba(0,0,0,.4);
+}
+
+/*Design specific ID*/
+#intro p{
+	margin-bottom: 30px
+}
+
+/*Add media queries to adapt container and buttons to screensize*/
+@media (max-width: 1007px) { /*size for tablets and phablets*/
+	.container{
+		width: 600px;
+	}
+	#btn-top{
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 640px) { /*size for smartphones*/
+	.container{
+		width: 400px;
+	}
+	#btn-top{
+		margin-bottom: 30px;
+	}
+
+}
