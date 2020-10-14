@@ -2,24 +2,27 @@
 body{
 	background-color: #d6e0f0;
 	color: #393b44;
-	font-family: Courier, monospace;
+	font-family: 'Piazzolla', serif;
 	font-size: 16px;
 }
 
-h1{
-	font-family: Helvetica;
-	color: #393b44;
+h1, h2, h3{
+	font-family: 'Poppins', sans-serif;
+	color: #7D0633;
 }
 
+
 img{
-	border-radius: 6px;
+	border-radius: 10px;
 }
 
 div{
-	border-color: #393b44;
+	border-color: #7D0633;
 	border-style: solid;
-	border-radius: 6px;
+	border-radius: 10px;
+	border-width: thin;
 }
+
 
 a{
 	text-decoration: none;
@@ -27,8 +30,9 @@ a{
 }
 
 a:hover{
-	color: black;
+	color: #7D0633;
 }
+
 
 /*Design specific Classes*/
 .container{
@@ -60,21 +64,22 @@ a:hover{
 }
 
 .list-inline i:hover{
-	color: #393b44;
+	color: #7D0633;
 }
 
 .btn-blue{
 	display: inline-block;
 	background-color: #8d93ab;
 	color: white;
+	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	padding: 15px 20px;
-	border-radius: 6px;
+	border-radius: 10px;
 	width: 200px
 }
 
 .btn-blue:hover{
-	background-color: #393b44;
+	background-color: #7D0633;
 	color: white;
 	box-shadow: 5px 10px 30px rgba(0,0,0,.4);
 }
